@@ -1,0 +1,327 @@
+/*.angular-center-container 
+{ */
+	/*position: fixed; */
+/*	top:0; left:0; 
+	height:100%; 
+	width:100%; 
+	display:table; 
+	pointer-events: none; 
+	z-index:9999; 
+} */
+/*.angular-centered { 
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center; 
+}
+.ng-scope { height: 100%; }*/
+
+/*CUADRO*/
+
+@media only screen and (max-device-width: 480px) {
+    /* STYLES HERE */
+
+     .FlexItemTot {
+        background: hsla(0,0%,0%,.1);
+        margin: 5px;
+        min-width: 100%;
+        max-width: 100%;
+        width: auto;
+        min-height: 189px;
+        padding: 4px;
+        float: left;
+        /*width: 30%;*/
+
+
+        /*font-weight:normal;*/
+        /*text-shadow: 1px 0px 1px rgba(0, 0, 0, 1);*/
+
+  }
+}
+
+  @media only screen and (min-width:960px){
+        /* styles for browsers larger than 960px; */
+.FlexItemTot {
+  background: hsla(0,0%,0%,.1);
+  margin: 5px;
+  min-width: 100%;
+  max-width: 350px;
+  width: auto;
+  min-height: 189px;
+  padding: 4px;
+  float: left;
+  /*width: 30%;*/
+
+
+  /*font-weight:normal;*/
+  /*text-shadow: 1px 0px 1px rgba(0, 0, 0, 1);*/
+
+}
+        
+    }
+@media only screen and (max-width: 480px) {
+    /* STYLES HERE for BROWSER WINDOWS with a max-width of 480px. 
+       This will work on desktops when the window is narrowed.  */
+
+        .FlexItemTot {
+        background: hsla(0,0%,0%,.1);
+        margin: 5px;
+        min-width: 100%;
+        max-width: 100%;
+        width: auto;
+        min-height: 189px;
+        padding: 4px;
+        float: left;
+        /*width: 30%;*/
+
+
+        /*font-weight:normal;*/
+        /*text-shadow: 1px 0px 1px rgba(0, 0, 0, 1);*/
+
+  }
+}
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+     
+
+}
+
+.contentdemoBasicUsage div.demo-content {
+  height: 600px; }
+.contentdemoBasicUsage div[ng-controller] {
+  height: 100%;
+  padding-bottom: 15px; }
+.contentdemoBasicUsage md-content {
+  padding: 24px; }
+
+
+/*FIN CUADRO*/
+
+
+$gray: #e6e6e;
+
+md-content.md-default-theme {
+  background-color: $gray !important;
+}
+md-card {
+  background-color: #fff;
+  h2:first-of-type {
+    margin-top: 0;
+  }
+}
+md-toolbar {
+  .md-button.md-default-theme {
+    border-radius: 99%; // round toolbar buttons
+  }
+}
+h2 {
+  font-weight: 400;
+}
+.md-toolbar-tools-bottom {
+  font-size: small;
+  & :last-child {
+    opacity: 0.8;
+  }
+}
+md-toolbar:not(.md-hue-1),
+.md-fab {
+  fill: #fff;
+}
+md-sidenav {
+  fill: #737373;
+  background-color: #24232A;
+  color: #ffffff;
+ 	ng-md-icon {
+    position: relative;
+    top: 5px; // adjust for svg viewbox
+  }
+}
+.user-avatar {
+  border-radius: 99%;
+}
+
+.containerFlex{
+  width: 100%;
+}
+.FlexContainer {
+  /*background: hsla(0,0%,0%,.1);*/
+  width: 70%;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  float: right;
+}
+.FlexItem {
+  background: hsla(0,0%,0%,.1);
+  margin: 5px;
+  min-width: 240px;
+  max-width: 350px;
+
+  min-height: 90px;
+  padding: 4px;
+  float: left;
+  /*width: 30%;*/
+
+
+  /*font-weight:normal;*/
+  /*text-shadow: 1px 0px 1px rgba(0, 0, 0, 1);*/
+
+}
+.FlexContainerTot {
+  /*background: hsla(0,0%,0%,.1);*/
+  width: 20%;
+  margin: 5px;
+  padding: 5px;
+  float: left;
+}
+.FlexItemTot {
+  background: hsla(0,0%,0%,.1);
+  margin: 5px;
+  min-width: 240px;
+  max-width: 240px;
+
+  min-height: 90px;
+  padding: 4px;
+  /*width: 30%;*/
+
+
+  /*font-weight:normal;*/
+  /*text-shadow: 1px 0px 1px rgba(0, 0, 0, 1);*/
+
+}
+.FlexItemAll {
+  background: hsla(0,0%,0%,.1);
+  margin: 5px;
+  min-width: 280px;
+  /*max-width: 600px;*/
+  width: 94%;
+  min-height: 90px;
+  padding: 24px;
+  /*width: 30%;*/
+
+
+  /*font-weight:normal;*/
+  /*text-shadow: 1px 0px 1px rgba(0, 0, 0, 1);*/
+
+}
+.ItemText{
+    font-family: 'Advent Pro', sans-serif;
+  font-size: 40px;
+  text-align: right;
+  padding-top: 13px;
+  padding-right: 8px;
+}
+
+.ItemSubtext{
+  clear: both;
+  color: #cccccc;
+    font-size: 10px;
+    margin-top: -8px;
+    padding-right: 10px;
+    text-align: right;
+    float: right;
+}
+.ItemIcon{
+  float: left;
+  margin-top: 11px;
+  width: 10%;
+}
+.material-icons{
+  font-size: 60px !important;
+}
+/*.FlexItem span {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 20px;
+  text-align: right;
+  padding-top: 13px;
+  padding-right: 5px;
+}*/
+
+.FlexContainerGraf {
+  /*background: hsla(0,0%,0%,.1);*/
+  width: 100%;
+
+}
+
+.FlexItemGraf {
+  /*background: hsla(0,0%,0%,.1);*/
+  margin: 5px;
+  /*min-width: 300px;*/
+  /*max-width: 80%;*/
+  /*min-width: 300px;*/
+  /*width: 100%;*/
+
+  /*min-height: 90px;*/
+  /*max-height: 400px;*/
+  /*height: 400px;*/
+  padding: 15px;
+  float: left;
+  background-color: rgb(255,255,255);
+  overflow: hidden;
+  /*width: 30%;*/
+
+
+  /*font-weight:normal;*/
+  /*text-shadow: 1px 0px 1px rgba(0, 0, 0, 1);*/
+
+}
+.background-content {
+  background-color: #e6e6e6 !important;
+}
+.contenedor{
+  width: 100%;
+  /*background-color: black;*/
+
+}
+.item_left{
+  /*background: hsla(0,0%,0%,.1);*/
+  margin: 5px;
+  min-width: 268px;
+  max-width: 28%;
+  width: 28%;
+  min-height: 90px;
+  padding: 4px;
+  float: left;
+}
+.item_rigth{
+  /*background: hsla(0,0%,0%,.1);*/
+  margin: 5px;
+  min-width: 240px;
+  max-width: 70%;
+  width: 70%;
+  min-height: 90px;
+  padding: 4px;
+  float: left;
+}
+.FlexItemTot {
+  background: hsla(0,0%,0%,.1);
+  margin: 5px;
+  min-width: 100%;
+  max-width: 350px;
+  width: auto;
+  min-height: 189px;
+  padding: 4px;
+  float: left;
+  /*width: 30%;
+
+
+  /*font-weight:normal;*/
+  /*text-shadow: 1px 0px 1px rgba(0, 0, 0, 1);*/
+
+}
+.chart{
+  min-width: 350px;
+  max-width: 850px;
+  width: auto;
+
+  min-height: 150px;
+  max-height: 453px;
+  height: 453px;
+}
+
+
+
+.md-sidenav-left .md-theme-indigo, .md-sidenav-left .nav-theme {
+    background-color: #34495e;
+}
